@@ -1,0 +1,26 @@
+page-view {
+    #background{
+        background: rgba(10, 93, 114, 0.671);
+        font-family: 'Montserrat', sans-serif;
+    }
+    ion-card.card{
+        // background-image: url('../../assets/f6147de0f8a9b02719091cee8becccc5.jpg');
+        background-size: cover;
+        border-radius: 5px;
+        border: 3px;
+        text-shadow: 3px 3px 6px rgba(35, 37, 37, 0.671);
+        box-shadow: 2px 2px 4px 3px;
+    }
+img{
+    box-shadow: 2px 2px 4px 2px  ;
+    // border: 2px solid;
+    border-radius: 5px;
+   
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+}

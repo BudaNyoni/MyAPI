@@ -1,0 +1,45 @@
+<ion-content id="background" class="animated fadeIn delay-3s">
+<ion-header>
+  <ion-navbar color = "color">
+    <ion-title>
+     <h1>Sports</h1> 
+    </ion-title>
+    <ion-icon name="md-football"></ion-icon>
+    <ion-buttons start>
+        <button ion-button icon-only menuToggle>
+          <ion-icon name = "md-menu"></ion-icon>
+        </button>
+      </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="pic">
+  <img class = "img" src="../../assets/logos/aurelia.svg" >
+  <h2 class="head">Daily News</h2>
+  <br>
+  </div>
+        <br>
+        <br>
+        <br>
+
+        <h1 class="top">Top Headlines</h1>
+        <br>
+        
+    <ion-list>
+        <ion-item  *ngFor="let X of arr; let i = index" class="animated  fadeInDown delay-2s">
+          <ion-thumbnail item-start>
+            <img id="pics" src="{{X.urlToImage}}">
+          </ion-thumbnail>
+          <h2>{{X.title}}</h2>
+          <p class="date">{{X.author}} • {{X.publishedAt}}</p>
+          <a ion-button small class="butt" color = "color" item-end (click) = "Sports(i)">View</a>
+        </ion-item>
+      </ion-list>
+    
+</ion-content>

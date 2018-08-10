@@ -1,0 +1,126 @@
+page-home {
+#background{
+    background-image: url('../../assets/bdaef66a331aa0f238be1b865cd4f431.jpg');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+  z-index: 99;
+  position: fixed;
+}
+ion-card.card{
+  border: 3px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 3px;
+  opacity: 0.90;
+}
+
+#custom-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100000;
+    width:100%;
+    background-color: #002a3e;
+  }
+  .top{
+    box-shadow: 2px 2px 4px black;
+    color:white;
+    background-color: rgba(15, 15, 15, 0.562);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(53, 53, 53);
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-right: 60px;
+    font-family: 'Lobster', cursive;
+    // color:rgb(94, 12, 46);
+}
+.title{
+  font-family: 'Lobster', cursive;
+
+}
+  h2{
+      color: black;
+      // text-shadow: 2px 2px 4px ;
+      font-family: 'Sunflower', sans-serif;
+  }
+  .head{
+    color:rgb(94, 12, 46);
+    font-family: 'Lobster', cursive;
+    box-shadow: 2px 2px 3px;
+    margin-left: 60px;
+    margin-right: 60px;
+   
+  }
+  
+  .flb {
+    background-image: url('../../assets/Pics/841aa50cee7fa2b1aaac0e30b284759d.gif');
+    background-size: cover;
+    height:100%;
+    width:100%;
+    animation: pulse 1s linear forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Aligner-item {
+    max-width: 50%;
+  }
+  .Aligner-item--top {
+    align-self: flex-start;
+  }
+  .Aligner-item--bottom {
+    align-self: flex-end;
+  }
+  #custom-overlay img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    animation: animation 4100ms linear infinite both ;
+    animation-delay: 6s;
+  }
+.pic{
+text-align: center;
+box-shadow: 2px 2px 4px 3px rgba(44, 44, 44, 0.5);
+border-radius: 25px;
+margin-left: 60px;
+margin-right: 60px;
+// background-color:rgba(10, 93, 114, 0.671);
+}
+
+
+.img{
+    height: 100px;
+    width: 100px;
+    // box-shadow: 2px 2px 4px;
+    border: 12px;
+    border-radius: 50px;
+}
+.logo{
+  box-shadow: 2px 2px 4px rgba(10, 93, 114, 0.671) ;
+  border-radius: 30px;
+}
+.log{
+  text-align: center;
+}
+#pics{
+ 
+    
+   border-radius: none;
+}
+.butt{
+    box-shadow: 2px 2px 4px black;
+    color: blue;
+}
+.item{
+  opacity: 0.90;
+  color:rgba(10, 93, 114, 0.671); 
+  margin: 30px;
+  right: 30px;
+  box-shadow: 2px 2px 4px black;
+}
+}

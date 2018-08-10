@@ -1,0 +1,92 @@
+<ion-content id="background" class="animated  fadeInDown delay-2s">
+<ion-header>
+  <ion-navbar color = "color2">
+    <ion-title>
+     <h1>Weather</h1> 
+    </ion-title>
+    <ion-buttons start>
+        <button ion-button icon-only menuToggle>
+          <ion-icon class="ic" name = "md-menu"></ion-icon>
+        </button>
+      </ion-buttons>
+      <ion-icon  class="ic" name="md-cloud"></ion-icon>
+  </ion-navbar>
+</ion-header>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+ 
+<div class="pics">
+  <img class = "img" src="../../assets/logos/aurelia.svg" >
+  <h2 class="head">Daily News</h2>
+  <br>
+  </div>
+  <br>
+  <br>
+
+<!-- <ion-searchbar (ionOutput) = "GetWeather()"></ion-searchbar>
+<ion-list>
+  <ion-item *ngFor = "let L of list">
+<!-- {{L}} -->
+  <!-- </ion-item>
+</ion-list> -->
+
+<h1>Today's Weather</h1>
+<br>
+
+ <ion-list class="animated  fadeInUp delay-3s">
+  <ion-card>
+
+       
+        <ion-list>
+          <ion-item>
+            <ion-label>Select City:</ion-label>
+            <ion-select [(ngModel)]="city">
+              <ion-option value="johannesburg">Johannesburg</ion-option>
+              <ion-option value="kimberley">Kimberley</ion-option>
+              <ion-option value="mafikeng">Mafikeng</ion-option>
+              <ion-option value="bloemfontein">Bloemfotein</ion-option>
+              <ion-option value="durban">Durban</ion-option>
+              <ion-option value="Cape Town">Cape Town</ion-option>
+              <ion-option value="polokwane">Polokwane</ion-option>
+              <ion-option value="nelspruit">Nelspruit</ion-option>
+              <ion-option value="Pietermaritzburg">Peitermaritzburg</ion-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+        </ion-card>
+
+
+        <ion-card>
+
+          <ion-item>
+           <ion-thumbnail item-end>
+          <img class="ico" src="{{icon1}}">
+        </ion-thumbnail> 
+     
+        
+           <h2><ion-icon class="i" name = "md-home"></ion-icon>: {{name}}</h2>
+        <br>
+      
+      <h2></h2> <h2><ion-icon class="i" name = "ios-thermometer-outline"></ion-icon> : {{temp}}</h2>
+       <br>
+        <h2><ion-icon class="i" name = "md-sunny"></ion-icon> {{description}}</h2>
+ 
+
+        </ion-item>
+       
+     
+    </ion-card>
+    <div class="butt">
+    <a ion-button small class="butt" color = "color" item-end (click) = "ViewNews()">View</a>
+  </div>
+  </ion-list>
+
+ 
+</ion-content>

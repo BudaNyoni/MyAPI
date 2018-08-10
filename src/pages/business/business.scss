@@ -1,0 +1,81 @@
+page-business {
+    #background{
+        background-image: url('../../assets/bdaef66a331aa0f238be1b865cd4f431.jpg');
+        background-size: cover;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    ion-card.card{
+        // background-image: url('../../assets/ceae3938883197d17e2bad51e5b054df.gif');
+        border: 8px;
+        // background-size: cover;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px 3px;
+        opacity: 0.80;
+    }
+    .top{
+        box-shadow: 2px 2px 4px black;
+        color:white;
+        background-color: rgba(15, 15, 15, 0.562);
+        text-align: center;
+        text-shadow: 2px 2px 4px black;
+        margin-left: 60px;
+        font-family: 'Lobster', cursive;
+        border-radius: 5px;
+        margin-right: 60px;
+    }
+    .title{
+        font-family: 'Lobster', cursive;
+      
+      }
+    .pic{
+        text-align: center;
+        }
+        
+        #pics{
+            // height: 100px;
+            // width: 100px;
+            // box-shadow: 2px 2px 4px black;
+            // border: 12px;
+            border-radius:none;
+        }
+        a.butt{
+            box-shadow: 2px 2px 4px;
+            color: blue;
+        }
+        h2{
+            color: black;
+            text-shadow: 2px 2px 4px;
+            font-family: 'Sunflower', sans-serif;
+        }
+        .item{
+            opacity: 0.90;
+            color:rgba(10, 93, 114, 0.671); 
+            margin: 30px;
+            right: 30px;
+            box-shadow: 2px 2px 4px black;
+        }
+        .pic{
+            text-align: center;
+            box-shadow: 2px 2px 4px 3px rgba(44, 44, 44, 0.5);
+            border-radius: 25px;
+            margin-left: 60px;
+            margin-right: 60px;
+            // background-color:rgba(10, 93, 114, 0.671);
+            }
+            
+            .img{
+                // height: 100px;
+                width: 100px;
+                // box-shadow: 2px 2px 4px;
+                border: 12px;
+                // border-radius: 50px
+            }
+            .head{
+                color:rgb(94, 12, 46);
+                font-family: 'Lobster', cursive;
+                box-shadow: 2px 2px 3px;
+                margin-left: 60px;
+                margin-right: 60px;
+            }
+}

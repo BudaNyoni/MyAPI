@@ -1,0 +1,55 @@
+<!--
+  Generated template for the BusinessPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content id="background"  class="animated  zoomIn delay-2s">
+<ion-header>
+
+  <ion-navbar color = "color">
+    <ion-title>
+    <h1>Business</h1>  
+    </ion-title>
+    <ion-buttons start>
+        <button ion-button icon-only menuToggle>
+          <ion-icon name = "md-menu"></ion-icon>
+        </button>
+      </ion-buttons>
+       <ion-icon name="logo-bitcoin"></ion-icon>
+  </ion-navbar>
+ 
+</ion-header>
+
+<br>
+<br>
+<br>
+<br>
+
+
+  <div class="pic">
+    <img class = "img" src="../../assets/logos/aurelia.svg" >
+    <h2 class="head">Daily News</h2>
+    <br>
+    </div>
+    <br>
+    <br>
+    <h1 class="top">Top Headlines</h1>
+    <br>
+        <ion-list *ngFor="let y of arr; let i = index">
+            <ion-card class="animated  fadeInDown delay-2s">
+               <img id="pics" src="{{y.urlToImage}}">
+              <ion-card-content>
+              <!-- <ion-thumbnail item-start> -->
+               
+              <!-- </ion-thumbnail> -->
+              <h1>{{y.title}}</h1>
+              <p class="date">Date{{y.author}} •Time {{y.publishedAt}}</p>
+    
+              <button ion-button small class="butt" color = "color" item-end  (click) = "Stories(i)">View</button>
+           </ion-card-content>
+            </ion-card>
+          </ion-list>
+    
+    
+</ion-content>

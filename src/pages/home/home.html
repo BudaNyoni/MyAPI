@@ -1,0 +1,60 @@
+
+<ion-content id="background" class="animated  zoomIn delay-2s">
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <div class="log"  ><img class="logo" src="../../assets/logos/aws-mobilehub.svg">
+      <h2 class="head">Daily News</h2></div>
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+<ion-header>
+
+  <ion-navbar color = "color">
+    <ion-buttons start>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name = "md-menu"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title>
+    <h1>News</h1> 
+    </ion-title>
+      <ion-icon name="ios-paper"></ion-icon>
+  </ion-navbar>
+</ion-header>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="pic">
+<img class = "img" src="../../assets/logos/aurelia.svg" >
+<h2 class="head">Daily News</h2>
+<br>
+</div>
+<br>
+<br>
+<h1 class="top">Top Headlines</h1>
+<br>
+    <ion-list *ngFor="let y of arr; let i = index">
+        <ion-card class="animated  fadeInDown delay-2s">
+           <img id="pics" src="{{y.urlToImage}}">
+          <ion-card-content>
+          <!-- <ion-thumbnail item-start> -->
+           
+          <!-- </ion-thumbnail> -->
+          <h1>{{y.title}}</h1>
+          <p class="date">Date{{y.author}} •Time {{y.publishedAt}}</p>
+
+          <button ion-button small class="butt" color = "color" item-end  (click) = "Stories(i)">View</button>
+       </ion-card-content>
+        </ion-card>
+      </ion-list>
+
+
+</ion-content>
+

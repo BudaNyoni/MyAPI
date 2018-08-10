@@ -1,0 +1,28 @@
+page-viewsports {
+#background{
+    background: rgba(10, 93, 114, 0.671);
+    font-family: 'Montserrat', sans-serif;
+}
+ion-card.card{
+    // background-image: url('../../assets/f6147de0f8a9b02719091cee8becccc5.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    border: 3px;
+    box-shadow: 2px 2px 4px 3px;
+    text-shadow: 3px 3px 6px rgba(35, 37, 37, 0.671);
+}
+img{
+    background-color: none;
+    box-shadow: 3px 3px 6px;
+    border-radius: 12px;
+}
+h2{
+    // color: blue;
+}
+.item{
+    background-color: none;
+}
+h1{
+    background-color: none;
+}
+}

@@ -1,0 +1,87 @@
+page-contact {
+#background{
+background-image: url('../../assets/0810178689370a41ab7aba8d14e3cd8c.jpg');
+background-size: cover;
+font-family: 'Montserrat', sans-serif;
+
+}
+ion-card.card{
+background-image:url('../../assets/cdbdf0347b2386b776d92004df718e08.gif');
+background-size: cover;
+border-radius: 5px;
+box-shadow: 2px 2px 4px;
+text-align: center;
+opacity: 0.90;
+border: 3px;
+}
+.butt{
+    text-align: center;
+    text-shadow: 2px 2px 4px ;
+}
+.i{
+    color:black;
+}
+
+a{
+    box-shadow: 2px 2px 4px black;
+}
+h1{
+    box-shadow: 2px 2px 4px black;
+    color:white;
+    background-color: rgba(15, 15, 15, 0.562);
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: 'Lobster', cursive;
+}
+h2{
+    text-shadow: 2px 2px 3px white;
+  
+}
+.ic{
+    color:white;
+}
+.pic{
+    text-align: center;
+    
+    }
+.ico{
+    box-shadow: 2px 2px 4px 3px rgba(20, 20, 20, 0.384);
+}    
+    img{
+        height: 100px;
+        width: 100px;
+        // box-shadow: 2px 2px 4px;
+        border: 12px;
+        border-radius: 50px;
+    }
+    .pics{
+        text-align: center;
+        box-shadow: 2px 2px 4px 3px;
+        border-radius: 25px;
+        margin-left: 60px;
+        margin-right: 60px;
+        background-color:rgba(143, 143, 143, 0.5);
+        }
+        .title{
+            font-family: 'Lobster', cursive;
+          
+          }  
+        
+        .img{
+            height: 100px;
+            width: 100px;
+            // box-shadow: 2px 2px 4px;
+            border: 12px;
+            border-radius: 50px;
+        }
+        .head{
+            color:rgb(94, 12, 46);
+            font-family: 'Lobster', cursive;
+            box-shadow: 2px 2px 3px;
+            margin-left: 60px;
+            margin-right: 60px;
+           
+          }
+}
