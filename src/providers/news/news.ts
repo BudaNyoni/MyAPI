@@ -34,7 +34,7 @@ GetBusiness(){
   });
 }
 GetSports(){
-  let apiKey = "https://newsapi.org/v2/top-headlines?sources=talksport&apiKey=ba26fa667ad14ac5ba20716d4d0d1bb2";
+  let apiKey = "https://newsapi.org/v2/top-headlines?sources=bbc-sport&apiKey=ba26fa667ad14ac5ba20716d4d0d1bb2 ";
   
   
   return new Promise((resolve,reject) => {
